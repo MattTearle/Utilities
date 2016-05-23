@@ -20,7 +20,8 @@ function clust = dendrocluster(z,varargin)
 %      |     |   -----   |
 %      1     2   3   4   5
 %      |     |   |   |   |
-% etc
+% etc. (If the orientation option is given as 'left' or 'right', the
+% ordering is bottom-to-top, rather than left-to-right.)
 %
 % CLUST = DENDROCLUSTER(Z,...) accepts any other arguments accepted by
 % DENDROGRAM.
@@ -35,6 +36,8 @@ function clust = dendrocluster(z,varargin)
 % parallelcoords(x,'Group',g(:,2),'Quantile',0.25)
 % subplot(2,1,2)
 % parallelcoords(x,'Group',g(:,3),'Quantile',0.25)
+%
+% Copyright 2016 The MathWorks, Inc.
 
 % Make dendrogram and keep outputs
 [l,node] = dendrogram(z,varargin{:});
