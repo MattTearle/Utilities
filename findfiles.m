@@ -16,6 +16,8 @@ function flist = findfiles(pattern,basedir)
 %   >> files = findfiles('matlab*');
 % Find all MAT-files in and below the folder C:\myfolder
 %   >> files = findfiles('*.mat','C:\myfolder');
+%
+% Copyright 2016 The MathWorks, Inc.
 
 % Maybe need to add extra bulletproofing for stupid things like
 % findfiles('.*')

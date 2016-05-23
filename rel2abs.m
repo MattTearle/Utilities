@@ -4,6 +4,8 @@ function absname = rel2abs(relname)
 % ABSPATH = REL2ABS(RELPATH) converts the relative path name (for a file or
 % folder) in the string RELPATH to the absolute path name for that
 % file/folder.
+%
+% Copyright 2016 The MathWorks, Inc.
 
 % Flag for form of ouput (char/cellstr)
 charout = false;
