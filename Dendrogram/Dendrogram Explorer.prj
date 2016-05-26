@@ -1,0 +1,78 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1070453088" file="C:\MATLAB\sandbox\Utilities\Dendrogram\Dendrogram Explorer.prj" location="C:\MATLAB\sandbox\Utilities\Dendrogram" name="Dendrogram Explorer" target="target.mlapps" target-name="Package App">
+    <param.appname>Dendrogram Explorer</param.appname>
+    <param.authnamewatermark>Matt Tearle</param.authnamewatermark>
+    <param.email />
+    <param.company>The MathWorks, Inc.</param.company>
+    <param.icon>${PROJECT_ROOT}\Dendrogram Explorer_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Dendrogram Explorer_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Dendrogram Explorer_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Dendrogram Explorer_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>Interactively explore the characteristics of clusters from a dendrogram.</param.summary>
+    <param.description>&lt;ol&gt;&lt;li&gt;Create a dendrogram from a matrix of data in your workspace.&lt;/li&gt;&lt;li&gt;Drag the threshold bar to form clusters.&lt;/li&gt;&lt;li&gt;View the characteristics of the clusters as a parallel coordinates plot.&lt;/li&gt;&lt;/ol&gt;</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Statistics and Machine Learning Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>19</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.1</item>
+      <item>11.0</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>C:\MATLAB\sandbox\Utilities\Dendrogram</param.output>
+    <param.guid>5efc3b70-b506-4671-9205-89dbacedb08a</param.guid>
+    <unset>
+      <param.email />
+      <param.screenshot />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\interactiveDendrogramApp.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\dendrocluster.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\MATLAB\sandbox\Utilities" name="Dendrogram" optional="false">C:\MATLAB\sandbox\Utilities\Dendrogram</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2016b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
